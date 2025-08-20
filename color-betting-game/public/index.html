@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Color Betting Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Bet on a Color</h1>
+  <form id="bet-form">
+    <input type="text" id="player" placeholder="Your name" required />
+    <div class="colors">
+      <button type="button" class="color" data-color="red" style="background:red;"></button>
+      <button type="button" class="color" data-color="green" style="background:green;"></button>
+      <button type="button" class="color" data-color="blue" style="background:blue;"></button>
+    </div>
+    <input type="hidden" id="color" required />
+    <button type="submit">Place Bet</button>
+  </form>
+  <p id="message"></p>
+  <script src="script.js"></script>
+</body>
+</html>

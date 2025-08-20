@@ -1,0 +1,17 @@
+{
+  "name": "color-betting-game",
+  "version": "1.0.0",
+  "description": "Simple color betting game where admin chooses the winning color",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
